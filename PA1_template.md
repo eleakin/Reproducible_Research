@@ -78,6 +78,8 @@ geom_line(color= "dodgerblue2", size= 1) +
 labs(title= "Average Daily Steps", x= "Interval", y= "Avg. Steps per day")
 ```
 
+![Time Series](figure/unnamed-chunk-9-1.png)
+
 ##### Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
 ```{r}
@@ -124,6 +126,7 @@ group_by(date) %>%
 summarise(total_steps = sum(steps, na.rm = TRUE))
 total_steps2
 ```
+![Histogram 2](figure/unnamed-chunk-16-1.png)
 
 ```{r}
 ggplot(total_steps2, aes(x= total_steps)) +
@@ -188,6 +191,8 @@ xyplot(
   ylab = "Average Number of Steps Taken"
 )
 ```
+
+![Panel Plot](figure/unnamed-chunk-23-1.png)
 
 ### Conclusion
 
