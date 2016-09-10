@@ -49,6 +49,7 @@ ggplot(total_steps, aes(x= total_steps)) +
 geom_histogram(fill= "dodgerblue2", color= "red", binwidth = 800) +
 labs(title= "Daily Steps", x= "Total Steps", y= "Frequency")
 ```
+![Histogram 1](figure/unnamed-chunk-5-1.png)
 
 ##### Calculate the mean and median of the total number of steps taken daily
 
