@@ -10,6 +10,9 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+As John Chambers said:
+> Everything is a function.
+
 
 ### Loading and preprocessing the data
 
